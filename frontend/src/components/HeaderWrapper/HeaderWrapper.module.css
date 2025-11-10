@@ -1,0 +1,8 @@
+.wrapper {
+    border: 1px solid red;
+    position: fixed;
+    width: 100%;
+    background: var(--background-transparent);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}

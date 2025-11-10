@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 1rem;
+    min-height: 100svh;
+    width: 100%;
+}
+
+.innerWrapper {
+    margin-top: var(--default-wrapper-height);
+    border-radius: var(--border-radius-large);
+    padding: 1rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.innerHeaderWrapper {
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: calc(var(--border-radius-large) - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainTitle {
+     /* height: 50%; */
+     margin: 0;
+}
