@@ -10,79 +10,147 @@ type CBVFlowInvitationsProps = {
   payIncomeDays?: number;
 };
 
-export default function CBVFlowInvitations({ payIncomeDays = 30 }: CBVFlowInvitationsProps) {
+export default function CBVFlowInvitations({
+  payIncomeDays = 30,
+}: CBVFlowInvitationsProps) {
   const { t } = useLocale();
 
-  function renderHTML(html: string) {
-    return <span dangerouslySetInnerHTML={{ __html: html }} />;
-  }
-
-  const translate = (key: string, fallback: string, options?: Record<string, any>) => {
+  const translate = (
+    key: string,
+    fallback: string,
+    options?: Record<string, string | number>
+  ) => {
     const result = t(key, options);
     return result === key ? fallback : result;
   };
 
-  const presetNameFields: FieldSetType = {
-    legend: "Name",
+  const renderHTML = (html: string) => (
+    <span dangerouslySetInnerHTML={{ __html: html }} />
+  );
+
+  // Name Fieldset
+  const nameFields: FieldSetType = {
+    legend: translate(
+      "en.caseworker.cbv_flow_invitations.invite.name_legend",
+      "Applicant name"
+    ),
     legendStyle: "large",
     children: [
       {
-        label: { htmlFor: "first-name", text: "First or given name" },
-        span: { className: "usa-hint", text: "For example, Jose, Darren, or Mai" },
-        textInput: { id: "first-name", name: "first-name", type: "text" },
+        label: {
+          htmlFor: "cbv_applicant_first_name",
+          text: translate(
+            "en.caseworker.cbv_flow_invitations.invite.first_name",
+            "First name"
+          ),
+        },
+        textInput: {
+          id: "cbv_applicant_first_name",
+          name: "cbv_applicant[first_name]",
+          type: "text",
+        },
       },
       {
-        label: { htmlFor: "middle-name", text: "Middle name" },
-        span: { className: "usa-hint", text: "For example, Martinez Gonzalez, Gu, or Smith" },
-        textInput: { id: "middle-name", name: "middle-name", type: "text" },
+        label: {
+          htmlFor: "cbv_applicant_middle_name",
+          text: translate(
+            "en.caseworker.cbv_flow_invitations.invite.middle_name",
+            "Middle name"
+          ),
+        },
+        textInput: {
+          id: "cbv_applicant_middle_name",
+          name: "cbv_applicant[middle_name]",
+          type: "text",
+        },
       },
       {
-        label: { htmlFor: "last-name", text: "Last name" },
-        span: { className: "usa-hint", text: "For example, Smith, Chen, or Patel" },
-        textInput: { id: "last-name", name: "last-name", type: "text" },
+        label: {
+          htmlFor: "cbv_applicant_last_name",
+          text: translate(
+            "en.caseworker.cbv_flow_invitations.invite.last_name",
+            "Last name"
+          ),
+        },
+        textInput: {
+          id: "cbv_applicant_last_name",
+          name: "cbv_applicant[last_name]",
+          type: "text",
+        },
       },
     ],
   };
 
-  const sandboxFieldKeys = [
-    "agency_id_number",
+  // Client details
+  const detailKeys = [
+    "case_number",
     "beacon_id",
+    "agency_id_number",
     "client_id_number",
-    "email_address",
-    "first_name",
-    "middle_name",
-    "last_name",
-    "language_label",
     "snap_application_date",
+    "email_address",
   ];
 
-  const sandboxFields: FieldSetType = {
+  const detailFields: FieldSetType = {
     legend: translate(
-      "en.caseworker.cbv_flow_invitations.sandbox.header",
-      "Sandbox client information"
+      "en.caseworker.cbv_flow_invitations.invite.client_info",
+      "Client information"
     ),
     legendStyle: "large",
-    children: sandboxFieldKeys.map((key) => ({
+    children: detailKeys.map((key) => ({
       label: {
-        htmlFor: key,
+        htmlFor: `cbv_applicant_${key}`,
         text: translate(
-          `en.caseworker.cbv_flow_invitations.sandbox.invite.${key}`,
-          key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()) 
+          `en.caseworker.cbv_flow_invitations.invite.${key}`,
+          key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
         ),
       },
-      span: { className: "usa-hint", text: "" }, 
-      textInput: { id: key, name: key, type: key.includes("email") ? "email" : "text" },
+      textInput: {
+        id: `cbv_applicant_${key}`,
+        name: `cbv_applicant[${key}]`,
+        type:
+          key === "email_address"
+            ? "email"
+            : key === "snap_application_date"
+            ? "date"
+            : "text",
+      },
     })),
   };
 
+  // Language radio buttons
+  const languageOptions = [
+    { value: "en", label: "English" },
+    { value: "es", label: "Spanish" },
+    { value: "vi", label: "Vietnamese" },
+    { value: "zh", label: "Chinese" },
+  ];
+
+  const languageFieldset: FieldSetType = {
+    legend: translate(
+      "en.caseworker.cbv_flow_invitations.invite.language_label",
+      "Preferred language"
+    ),
+    legendStyle: "large",
+    children: [
+      {
+        radioGroup: {
+          name: "cbv_applicant[language]",
+          options: languageOptions,
+        },
+      },
+    ],
+  };
+
+  // Combine all fieldsets
   const formData: DataStructType = {
-    fieldSets: [presetNameFields, sandboxFields],
+    fieldSets: [nameFields, detailFields, languageFieldset],
   };
 
   return (
     <div className={styles.wrapper}>
       <div className={`${styles.innerWrapper} bg-base-lightest`}>
-        <div className={`${styles.innerHeaderWrapper}`}>
+        <div className={styles.innerHeaderWrapper}>
           <Title className={styles.mainTitle}>
             <h1>
               {translate(
@@ -96,7 +164,7 @@ export default function CBVFlowInvitations({ payIncomeDays = 30 }: CBVFlowInvita
             {renderHTML(
               translate(
                 "en.caseworker.cbv_flow_invitations.new.description_html.default",
-                `Provide some details about the client so we can send them a link to verify their pay information. We'll request the past ${payIncomeDays} days of income, based on the client's application/recertification date.`,
+                `Provide some details about the client so we can send them a link to verify their pay information. We'll request the past ${payIncomeDays} days of income, based on the client's application or recertification date.`,
                 { pay_income_days: payIncomeDays }
               )
             )}

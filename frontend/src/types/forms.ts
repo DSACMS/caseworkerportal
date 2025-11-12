@@ -9,10 +9,22 @@ export type FieldSetType = {
   // requiredMarker?: boolean;
 };
 
-export type ChildrenType = {
+export type ChildrenType = TextInputChild | RadioGroupChild;
+
+// Text input child
+export type TextInputChild = {
   label: LabelType;
-  span: SpanType;
+  span?: SpanType;
   textInput: TextInputType;
+  radioGroup?: never; // prevent both being used
+};
+
+// Radio group child
+export type RadioGroupChild = {
+  label?: LabelType;
+  span?: SpanType;
+  textInput?: never;
+  radioGroup: RadioGroupType;
 };
 
 export type LabelType = {
@@ -28,5 +40,15 @@ export type SpanType = {
 export type TextInputType = {
   id: string;
   name: string;
-  type: "text" | "email" | "number" | "password" | "search" | "tel" | "url";
+  type: "text" | "email" | "number" | "password" | "search" | "tel" | "url" | "date";
+};
+
+export type RadioGroupType = {
+  name: string;
+  options: RadioOptionType[];
+};
+
+export type RadioOptionType = {
+  value: string;
+  label: string;
 };

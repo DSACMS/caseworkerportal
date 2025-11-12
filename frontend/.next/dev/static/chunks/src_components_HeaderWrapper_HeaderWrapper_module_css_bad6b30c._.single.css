@@ -1,0 +1,10 @@
+/* [project]/src/components/HeaderWrapper/HeaderWrapper.module.css [app-client] (css) */
+.HeaderWrapper-module__iuwPLa__wrapper {
+  background: var(--background-transparent);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  position: fixed;
+}
+
+/*# sourceMappingURL=src_components_HeaderWrapper_HeaderWrapper_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,1021 @@
+[00:00:00.527] Server  LOG      ✓ Ready in 375ms
+[00:00:07.117] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.117] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.117] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.117] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.325] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.325] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.325] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.325] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:07.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.859] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:09.859] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:09.859] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:09.859] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:36.611] Server  LOG      ✓ Compiled in 4ms
+[00:00:36.717] Browser ERROR   ./src/app/cbv-flow-invitations/page.module.css:6:1
+Parsing CSS source code failed
+  4 |     width: 50%;
+  5 |     min
+> 6 | }
+    | ^
+  7 |
+  8 | .innerWrapper {
+  9 |     margin-top: var(--default-wrapper-height);
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/app/cbv-flow-invitations/page.module.css [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/cbv-flow-invitations/page.module.css [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:00:41.254] Browser ERROR   ./src/app/cbv-flow-invitations/page.module.css:6:1
+Parsing CSS source code failed
+  4 |     width: 400px;
+  5 |     min
+> 6 | }
+    | ^
+  7 |
+  8 | .innerWrapper {
+  9 |     margin-top: var(--default-wrapper-height);
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/app/cbv-flow-invitations/page.module.css [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/cbv-flow-invitations/page.module.css [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:00:49.499] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:49.499] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:49.499] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:00:49.499] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:00:53.814] Server  LOG      ✓ Compiled in 4ms
+[00:00:57.592] Server  LOG      ✓ Compiled in 2ms
+[00:01:39.209] Server  LOG      ✓ Compiled in 8ms
+[00:01:39.313] Browser ERROR   ./src/components/FormWrapper/index.tsx:94:38
+Parsing ecmascript source code failed
+  92 |         ))}
+  93 |       </Form>
+> 94 |       <Button type="submit" className=>Send Invitation</Button>
+     |                                      ^^
+  95 |     </div>
+  96 |   );
+  97 | }
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:01:44.924] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:01:44.924] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:01:44.924] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:01:44.925] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:01:46.011] Server  LOG      ✓ Compiled in 3ms
+[00:01:46.113] Browser ERROR   ./src/components/FormWrapper/index.tsx:94:47
+Parsing ecmascript source code failed
+  92 |         ))}
+  93 |       </Form>
+> 94 |       <Button type="submit" className={styles.}>Send Invitation</Button>
+     |                                               ^
+  95 |     </div>
+  96 |   );
+  97 | }
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:01:48.404] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:01:48.404] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:01:48.404] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:01:48.404] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:02:52.656] Server  LOG      ✓ Compiled in 10ms
+[00:02:52.759] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:28:12
+Parsing CSS source code failed
+  26 | }
+  27 |
+> 28 | .sendButton
+     |            ^
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:02:54.273] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:02:54.274] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:02:54.274] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:02:54.274] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:03:02.679] Server  LOG      ✓ Compiled in 5ms
+[00:03:03.991] Server  LOG      ✓ Compiled in 2ms
+[00:03:04.095] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:30:1
+Parsing CSS source code failed
+  28 | .sendButton {
+  29 |     padding: 1rem;S
+> 30 | }
+     | ^
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:03:05.086] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:03:05.086] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:03:05.086] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:03:05.086] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:03:14.242] Server  LOG      ✓ Compiled in 2ms
+[00:03:17.568] Server  LOG      ✓ Compiled in 2ms
+[00:03:17.841] Server  LOG      ✓ Compiled in 2ms
+[00:03:20.979] Server  LOG      ✓ Compiled in 4ms
+[00:03:24.744] Server  LOG      ✓ Compiled in 3ms
+[00:03:29.093] Server  LOG      ✓ Compiled in 4ms
+[00:03:40.585] Server  LOG      ✓ Compiled in 5ms
+[00:03:55.299] Server  LOG      ✓ Compiled in 13ms
+[00:03:56.226] Server  LOG      ✓ Compiled in 2ms
+[00:03:56.329] Browser ERROR   ./src/components/FormWrapper/index.tsx:97:1
+Parsing ecmascript source code failed
+  95 |     </div>
+  96 |   );
+> 97 | }
+     | ^
+  98 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:03:59.931] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:03:59.931] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:03:59.932] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:03:59.932] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:00.998] Server  LOG      ✓ Compiled in 17ms
+[00:04:02.113] Server  LOG      ✓ Compiled in 12ms
+[00:04:03.060] Server  LOG      ✓ Compiled in 5ms
+[00:04:08.225] Server  LOG      ✓ Compiled in 2ms
+[00:04:09.551] Server  LOG      ✓ Compiled in 2ms
+[00:04:15.644] Server  LOG      ✓ Compiled in 4ms
+[00:04:17.063] Server  LOG      ✓ Compiled in 4ms
+[00:04:19.976] Server  LOG      ✓ Compiled in 5ms
+[00:04:30.637] Server  LOG      ✓ Compiled in 7ms
+[00:04:30.740] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:15:7
+Parsing CSS source code failed
+  13 |     display: flex;
+  14 |     flex-direction: column;
+> 15 |     al
+     |       ^
+  16 |     gap: rem;
+  17 |     width: 100%;
+  18 |
+
+Unexpected token Ident("gap")
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:04:32.304] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:32.304] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:32.305] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:32.305] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:41.652] Server  LOG      ✓ Compiled in 7ms
+[00:04:49.358] Server  LOG      ✓ Compiled in 5ms
+[00:04:49.460] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:13:1
+Parsing CSS source code failed
+  11 |     flex-direction: column;
+  12 |     align-items: center;d
+> 13 | }
+     | ^
+  14 |
+  15 | .form {
+  16 |     display: flex;
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:04:52.578] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:52.578] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:52.578] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:52.578] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:57.356] Server  LOG      ✓ Compiled in 7ms
+[00:04:57.459] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:13:1
+Parsing CSS source code failed
+  11 |     flex-direction: column;
+  12 |     align-items: center;d
+> 13 | }
+     | ^
+  14 |
+  15 | .form {
+  16 |     display: flex;
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:04:58.596] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:58.596] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:04:58.596] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:04:58.596] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:05:11.891] Server  LOG      ✓ Compiled in 3ms
+[00:05:29.081] Server  LOG      ✓ Compiled in 3ms
+[00:05:33.534] Server  LOG      ✓ Compiled in 3ms
+[00:05:37.599] Server  LOG      ✓ Compiled in 2ms
+[00:05:56.023] Server  LOG      ✓ Compiled in 3ms
+[00:05:57.910] Server  LOG      ✓ Compiled in 4ms
+[00:05:58.766] Server  LOG      ✓ Compiled in 3ms
+[00:06:00.832] Server  LOG      ✓ Compiled in 2ms
+[00:06:02.465] Server  LOG      ✓ Compiled in 2ms
+[00:06:09.612] Server  LOG      ✓ Compiled in 4ms
+[00:06:11.315] Server  LOG      ✓ Compiled in 2ms
+[00:06:14.949] Server  LOG      ✓ Compiled in 3ms
+[00:06:15.984] Server  LOG      ✓ Compiled in 4ms
+[00:06:19.098] Server  LOG      ✓ Compiled in 1ms
+[00:06:24.421] Server  LOG      ✓ Compiled in 5ms
+[00:06:24.523] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:33:1
+Parsing CSS source code failed
+  31 |     padding: 1rem;
+  32 |     a
+> 33 | }
+     | ^
+
+Unexpected end of input
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:06:25.214] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:06:25.214] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:06:25.214] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:06:25.214] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:06:39.234] Server  LOG      ✓ Compiled in 10ms
+[00:06:40.448] Server  LOG      ✓ Compiled in 6ms
+[00:06:44.423] Server  LOG      ✓ Compiled in 6ms
+[00:06:57.722] Server  LOG      ✓ Compiled in 11ms
+[00:07:01.659] Server  LOG      ✓ Compiled in 6ms
+[00:07:04.131] Server  LOG      ✓ Compiled in 4ms
+[00:07:10.171] Server  LOG      ✓ Compiled in 4ms
+[00:07:13.462] Server  LOG      ✓ Compiled in 18ms
+[00:07:15.334] Server  LOG      ✓ Compiled in 14ms
+[00:07:19.307] Server  LOG      ✓ Compiled in 2ms
+[00:07:24.153] Server  LOG      ✓ Compiled in 6ms
+[00:07:24.256] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:29:1
+Parsing CSS source code failed
+  27 |
+  28 | }
+> 29 | ,buttonWrapper
+     | ^
+  30 | .sendButton {
+  31 |     padding: 1rem;
+  32 |     align-self: start;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:07:35.726] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:07:35.727] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:07:35.728] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:07:35.728] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:07:39.325] Server  LOG      ✓ Compiled in 4ms
+[00:07:41.610] Server  LOG      ✓ Compiled in 3ms
+[00:07:46.674] Server  LOG      ✓ Compiled in 3ms
+[00:08:02.096] Server  LOG      ✓ Compiled in 3ms
+[00:08:07.564] Server  LOG      ✓ Compiled in 2ms
+[00:08:14.241] Server  LOG      ✓ Compiled in 2ms
+[00:08:31.692] Server  LOG      ✓ Compiled in 4ms
+[00:08:31.797] Browser ERROR   ./src/components/FormWrapper/FormWrapper.module.css:31:1
+Parsing CSS source code failed
+  29 |
+  30 | .fieldset {}
+> 31 | }
+     | ^
+  32 | .buttonWrapper {
+  33 |     width: 100%;
+  34 |     display: flex;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component Browser]
+    ./src/components/FormWrapper/index.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component Browser]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/FormWrapper/FormWrapper.module.css [Client Component SSR]
+    ./src/components/FormWrapper/index.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Client Component SSR]
+    ./src/app/cbv-flow-invitations/page.tsx [Server Component]
+[00:08:34.255] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:08:34.255] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:08:34.255] Server  WARN     ⚠ [next]/internal/font/google/geist_a71539c9.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_a71539c9.module.css
+    [next]/internal/font/google/geist_a71539c9.js
+    ./src/app/layout.tsx
+
+
+[00:08:34.255] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_8d43a2aa.module.css
+    [next]/internal/font/google/geist_mono_8d43a2aa.js
+    ./src/app/layout.tsx
+
+
+[00:08:42.546] Server  LOG      ✓ Compiled in 3ms
+[00:08:49.368] Server  LOG      ✓ Compiled in 4ms
+[00:08:56.708] Server  LOG      ✓ Compiled in 4ms
+[00:09:03.068] Server  LOG      ✓ Compiled in 3ms
+[00:09:08.330] Server  LOG      ✓ Compiled in 2ms
+[00:09:21.431] Server  LOG      ✓ Compiled in 4ms

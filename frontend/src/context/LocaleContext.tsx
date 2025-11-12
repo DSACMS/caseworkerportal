@@ -8,11 +8,12 @@ type InterpolateProps = {
   variables?: Record<string, string | number>;
 };
 
+// replaces template literal % with $ for JS
 function interpolate({ template, variables }: InterpolateProps): string {
   return template.replace(/%\{(\w+)\}/g, (_, key) => {
     return variables && variables[key] !== undefined
       ? String(variables[key])
-      : `%{${key}}`; 
+      : `%{${key}}`;
   });
 }
 
@@ -33,26 +34,24 @@ function getNestedValue(
   return typeof value === "string" ? value : undefined;
 }
 
-// -------------------------
-// Context type
-// -------------------------
 type LocaleContextType = {
   locale: Locale;
   setLocale: (locale: Locale) => void;
   t: (key: string, variables?: Record<string, string | number>) => string;
 };
 
-// -------------------------
-// Create context
-// -------------------------
 export const LocaleContext = createContext<LocaleContextType | undefined>(
   undefined
 );
 
+// context provider wrapper for the whole app to pass the selected language
 export default function LocaleProvider({ children }: { children: ReactNode }) {
   const [locale, setLocale] = useState<Locale>("en");
 
-  const t = (key: string, variables?: Record<string, string | number>): string => {
+  const t = (
+    key: string,
+    variables?: Record<string, string | number>
+  ): string => {
     const keys = key.split(".");
     const translation = translations[locale];
     const value = getNestedValue(translation, keys);

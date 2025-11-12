@@ -6,6 +6,7 @@ import "./globals.css";
 // import { GovBanner } from '@trussworks/react-uswds';
 import HeaderWrapper from "@/components/HeaderWrapper";
 import LocaleProvider from "@/context/LocaleContext";
+import styles from "./layout.module.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <LocaleProvider>
-        <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <body className={`${geistSans.variable} ${geistMono.variable} ${styles.wrapper}`}>
           {/* <GovBanner /> */}
           <HeaderWrapper />
           {children}

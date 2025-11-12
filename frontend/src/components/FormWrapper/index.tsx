@@ -18,7 +18,6 @@ export default function FormWrapper({ data }: Props) {
   function formSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     console.log("Form submitted");
-    // Optional: You can serialize form data here
     const formData = new FormData(event.currentTarget);
     const dataObj = Object.fromEntries(formData.entries());
     console.log(dataObj);
@@ -46,19 +45,64 @@ export default function FormWrapper({ data }: Props) {
                     {child.span.text}
                   </span>
                 )}
-                {child.textInput && (
-                  <TextInput
-                    id={child.textInput.id}
-                    name={child.textInput.name}
-                    type={child.textInput.type}
-                  />
-                )}
+
+                {child.textInput ? (
+                  child.textInput.type === "date" ? (
+                    <input
+                      id={child.textInput.id}
+                      name={child.textInput.name}
+                      type="date"
+                      className="usa-input"
+                    />
+                  ) : (
+                    <TextInput
+                      id={child.textInput.id}
+                      name={child.textInput.name}
+                      type={
+                        child.textInput.type as
+                          | "text"
+                          | "email"
+                          | "number"
+                          | "password"
+                          | "search"
+                          | "tel"
+                          | "url"
+                      }
+                    />
+                  )
+                ) : child.radioGroup ? (
+                  <div className="usa-radio-group">
+                    {child.radioGroup.options.map((option, index) => (
+                      <div className="usa-radio usa-radio--tile" key={index}>
+                        <input
+                          className="usa-radio__input usa-radio__input--tile"
+                          id={`${child.radioGroup.name}-${option.value}-${index}`}
+                          name={child.radioGroup.name}
+                          type="radio"
+                          value={option.value}
+                          aria-label={option.label} // ensures accessibility
+                        />
+                        <label
+                          className="usa-radio__label"
+                          htmlFor={`${child.radioGroup.name}-${option.value}-${index}`}
+                        >
+                          {option.label}
+                        </label>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </div>
             ))}
           </Fieldset>
         ))}
       </Form>
-      <Button type="submit">Send Invitation</Button>
+      <div className={styles.buttonWrapper}>
+        <Button type="submit" className={styles.sendButton}>
+        Send Invitation
+      </Button>
+      </div>
+      
     </div>
   );
 }
