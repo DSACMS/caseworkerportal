@@ -164,6 +164,8 @@
   },
   "active": "ea63358199259e17",
   "lastOpenFiles": [
+    "frontend/src/components/FooterWrapper/footer.module.css",
+    "frontend/src/components/FooterWrapper/index.tsx",
     "frontend/src/app/layout.module.css",
     "To Run.md",
     "README.md"

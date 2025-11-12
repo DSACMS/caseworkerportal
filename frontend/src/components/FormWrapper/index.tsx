@@ -9,6 +9,7 @@ import {
   Button,
 } from "@trussworks/react-uswds";
 import type { DataStructType } from "@/types/forms";
+import { useRouter } from "next/navigation";
 
 type Props = {
   data: DataStructType;
@@ -21,6 +22,12 @@ export default function FormWrapper({ data }: Props) {
     const formData = new FormData(event.currentTarget);
     const dataObj = Object.fromEntries(formData.entries());
     console.log(dataObj);
+  }
+
+  const router = useRouter();
+
+  function handleClick() {
+    router.push("/"); //home for now
   }
 
   return (
@@ -98,7 +105,7 @@ export default function FormWrapper({ data }: Props) {
         ))}
       </Form>
       <div className={styles.buttonWrapper}>
-        <Button type="submit" className={styles.sendButton}>
+        <Button type="submit" className={styles.sendButton} onClick={handleClick}>
         Send Invitation
       </Button>
       </div>

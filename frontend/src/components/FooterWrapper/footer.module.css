@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+}
+
+.primaryWrapper {
+     display: flex;
+     gap: 1rem;
+     padding: 1rem;
+}
+.primaryLinkWrapper {
+    /* border: 1px solid red; */
+    padding: 1rem;
+    border-radius: calc(var(--border-radius-large) - 1rem);
+    color: white !important;
+}

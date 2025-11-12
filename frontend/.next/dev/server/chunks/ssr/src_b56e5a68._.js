@@ -32,6 +32,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks
 ;
 ;
 ;
+;
 function FormWrapper({ data }) {
     function formSubmit(event) {
         event.preventDefault();
@@ -40,6 +41,7 @@ function FormWrapper({ data }) {
         const dataObj = Object.fromEntries(formData.entries());
         console.log(dataObj);
     }
+    const router = (void 0)();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FormWrapper$2f$FormWrapper$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].wrapper} bg-base-lighter`,
         children: [
@@ -59,7 +61,7 @@ function FormWrapper({ data }) {
                                         children: child.label.text
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 42,
                                         columnNumber: 19
                                     }, this),
                                     child.span && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -67,7 +69,7 @@ function FormWrapper({ data }) {
                                         children: child.span.text
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 47,
                                         columnNumber: 19
                                     }, this),
                                     child.textInput ? child.textInput.type === "date" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -77,7 +79,7 @@ function FormWrapper({ data }) {
                                         className: "usa-input"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 54,
                                         columnNumber: 21
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TextInput"], {
                                         id: child.textInput.id,
@@ -85,7 +87,7 @@ function FormWrapper({ data }) {
                                         type: child.textInput.type
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 61,
                                         columnNumber: 21
                                     }, this) : child.radioGroup ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "usa-radio-group",
@@ -101,7 +103,7 @@ function FormWrapper({ data }) {
                                                         "aria-label": option.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                                        lineNumber: 77,
+                                                        lineNumber: 80,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -110,34 +112,34 @@ function FormWrapper({ data }) {
                                                         children: option.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 88,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 79,
                                                 columnNumber: 23
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 77,
                                         columnNumber: 19
                                     }, this) : null
                                 ]
                             }, childIndex, true, {
                                 fileName: "[project]/src/components/FormWrapper/index.tsx",
-                                lineNumber: 37,
+                                lineNumber: 40,
                                 columnNumber: 15
                             }, this))
                     }, fieldSetIndex, false, {
                         fileName: "[project]/src/components/FormWrapper/index.tsx",
-                        lineNumber: 30,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/FormWrapper/index.tsx",
-                lineNumber: 28,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,18 +150,18 @@ function FormWrapper({ data }) {
                     children: "Send Invitation"
                 }, void 0, false, {
                     fileName: "[project]/src/components/FormWrapper/index.tsx",
-                    lineNumber: 101,
+                    lineNumber: 104,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/FormWrapper/index.tsx",
-                lineNumber: 100,
+                lineNumber: 103,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/FormWrapper/index.tsx",
-        lineNumber: 27,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }

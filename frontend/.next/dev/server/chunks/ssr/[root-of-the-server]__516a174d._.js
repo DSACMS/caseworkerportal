@@ -1,0 +1,373 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[project]/src/components/HeaderWrapper/HeaderWrapper.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "wrapper": "HeaderWrapper-module__iuwPLa__wrapper",
+});
+}),
+"[project]/src/components/HeaderWrapper/index.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>HeaderWrapper
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeaderWrapper$2f$HeaderWrapper$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/HeaderWrapper/HeaderWrapper.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@trussworks/react-uswds/lib/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+function HeaderWrapper() {
+    const [expanded, setExpanded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
+        false
+    ]);
+    const onClick = ()=>setExpanded((prev)=>!prev);
+    const onToggle = (index)=>{
+        setIsOpen((prev)=>prev.map((open, i)=>i === index ? !open : open));
+    };
+    const testMenuItems = [
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "/cbv-flow-invitations",
+            children: "CBV Invitations"
+        }, "cbv-invitations", false, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 27,
+            columnNumber: 5
+        }, this),
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "#linkTwo",
+            children: "Simple link Two"
+        }, "simple-link-2", false, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 28,
+            columnNumber: 5
+        }, this),
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "#linkOne",
+            children: "Current link"
+        }, "current-link", false, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 29,
+            columnNumber: 5
+        }, this),
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "#linkFour",
+            children: "Another link"
+        }, "simple-link-4", false, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 30,
+            columnNumber: 5
+        }, this)
+    ];
+    const testItemsMenu = [
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "/",
+            className: "usa-nav__link",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                children: "Home"
+            }, void 0, false, {
+                fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                lineNumber: 34,
+                columnNumber: 62
+            }, this)
+        }, "home-link", false, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 34,
+            columnNumber: 5
+        }, this),
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["NavDropDownButton"], {
+                    menuId: "testDropDownOne",
+                    label: "Dropdown",
+                    isOpen: isOpen[0],
+                    onToggle: ()=>onToggle(0),
+                    isCurrent: true
+                }, void 0, false, {
+                    fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                    lineNumber: 36,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Menu"], {
+                    items: testMenuItems,
+                    isOpen: isOpen[0],
+                    id: "testDropDownOne"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                    lineNumber: 43,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, "dropdown-1", true, {
+            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+            lineNumber: 35,
+            columnNumber: 5
+        }, this)
+    ];
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const wrapper = document.querySelector(`.${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeaderWrapper$2f$HeaderWrapper$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].wrapper}`);
+        if (wrapper) {
+            const defaultHeight = wrapper.offsetHeight;
+            document.documentElement.style.setProperty("--default-wrapper-height", `${defaultHeight}px`);
+        }
+    }, []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeaderWrapper$2f$HeaderWrapper$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].wrapper,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["GovBanner"], {}, void 0, false, {
+                fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                lineNumber: 61,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Header"], {
+                basic: true,
+                showMobileOverlay: expanded,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "usa-nav-container",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "usa-navbar",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Title"], {
+                                    children: "IVAAS"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["NavMenuButton"], {
+                                    label: "Menu",
+                                    onClick: onClick
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                                    lineNumber: 66,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                            lineNumber: 64,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PrimaryNav"], {
+                            items: testItemsMenu,
+                            mobileExpanded: expanded,
+                            onToggleMobileNav: onClick
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                    lineNumber: 63,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+                lineNumber: 62,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/HeaderWrapper/index.tsx",
+        lineNumber: 60,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/locales/json/en.json (json)", ((__turbopack_context__) => {
+
+__turbopack_context__.v(JSON.parse("{\"en\":{\"activerecord\":{\"errors\":{\"models\":{\"cbv_applicant\":{\"attributes\":{\"date_of_birth\":{\"future_date\":\"Date of birth must be today or in the past\",\"invalid_date\":\"Enter a valid date of birth\"},\"first_name\":{\"blank\":\"Enter the client's first name.\"},\"last_name\":{\"blank\":\"Enter the client's last name.\"},\"snap_application_date\":{\"invalid_date\":\"Enter today's date or the date you contacted the client.\"}}},\"cbv_applicant/az_des\":{\"attributes\":{\"case_number\":{\"blank\":\"Enter the client's case number.\"}}},\"cbv_applicant/la_ldh\":{\"attributes\":{\"case_number\":{\"blank\":\"Enter the client's case number.\"},\"date_of_birth\":{\"future_date\":\"Date of birth must be today or in the past\",\"invalid_date\":\"Enter a valid date of birth\"}}},\"cbv_applicant/sandbox\":{\"attributes\":{\"agency_id_number\":{\"blank\":\"Enter a valid agency ID number.\",\"invalid_format\":\"Agency ID number must be 7 digits.\"},\"beacon_id\":{\"invalid_format\":\"Your WELID must be 6 characters. It can only include letters and numbers.\"},\"case_number\":{\"invalid_format\":\"Enter the case number in the ANGIE/sPOS format, i.e. 00012345678A.\"},\"client_id_number\":{\"invalid_format\":\"Enter the client's CIN in the correct format, XX00000X.\"},\"date_of_birth\":{\"future_date\":\"Date of birth must be today or in the past\",\"invalid_date\":\"Enter a valid date of birth\"}}},\"cbv_flow_invitation\":{\"attributes\":{\"email_address\":{\"blank\":\"Enter the client's email address.\",\"invalid_format\":\"Enter an email address in the correct format, like name@example.com\"},\"language\":{\"invalid_format\":\"Language must be either English (en) or Spanish (es).\"}}}}}},\"aggregator_strings\":{\"deductions\":{\"401k\":\"401k\",\"dental\":\"Dental\",\"garnishment\":\"Garnishment\",\"other\":\"Other\",\"roth\":\"Roth\",\"vision\":\"Vision\"},\"earnings_category\":{\"base\":\"Base Pay\",\"benefits\":\"Benefits\",\"bereavement\":\"Bereavement\",\"bonus\":\"Bonus\",\"commission\":\"Commission\",\"disability\":\"Disability\",\"double_overtime\":\"Double Overtime\",\"employer_contribution\":\"Employer Contribution\",\"fare\":\"Fare\",\"holiday\":\"Holiday\",\"hourly\":\"Hourly Wage\",\"life_insurance\":\"Life Insurance\",\"meal_comp\":\"Meal Comp\",\"medical\":\"Medical\",\"other\":\"Other Pay\",\"overtime\":\"Overtime\",\"parental\":\"Parental\",\"premium\":\"Premium\",\"pto\":\"Paid Time Off\",\"retirement\":\"Retirement\",\"retro_pay\":\"Retroactive Pay\",\"salary\":\"Salary\",\"shift_differential\":\"Shift Differential\",\"sick\":\"Sick Time\",\"stock\":\"Stock\",\"tips\":\"Tips\",\"unpaid\":\"Unpaid\",\"vacation\":\"Vacation\"},\"employment_statuses\":{\"employed\":\"employed\",\"inactive\":\"inactive\",\"terminated\":\"terminated\"},\"payment_frequencies\":{\"annual\":\"Annually\",\"biweekly\":\"Bi-weekly\",\"daily\":\"Daily\",\"hourly\":\"Hourly\",\"monthly\":\"Monthly\",\"per_mile\":\"Per mile\",\"quarterly\":\"Quarterly\",\"semimonthly\":\"Semi-monthly\",\"semiweekly\":\"Semi-weekly\",\"variable\":\"Variable\",\"weekly\":\"Weekly\"},\"tax_category\":{\"post_tax\":\"post-tax\",\"pre_tax\":\"pre-tax\",\"unknown\":\"tax status unknown\"}},\"applicant_mailer\":{\"invitation_email\":{\"body_1\":{\"default\":\"%{agency_acronym} wants you to verify your income as part of your SNAP application or recertification. The SNAP Income Pilot is a new tool designed to help you share your income data directly with %{agency_acronym} by logging into your payroll provider.\"},\"body_2_html\":{\"default\":\"This process is unique to you. Please don't share this invitation with anyone else. <strong>You have until %{deadline}, to complete your verification.</strong> Otherwise, you can request a new invitation.\"},\"body_3\":{\"default\":\"This is an optional tool. If you decide that you don't want to use it, you can provide income documents via the %{app_name} app, fax, mail, or in-person.\"},\"button\":\"Verify your income\",\"button_caption\":\"To verify your income with the SNAP Income Pilot, click the button below:\",\"footer\":\"This is an automatically generated message from your SNAP agency. Please don’t reply to this email.\",\"greeting\":\"Hello,\",\"header\":{\"sandbox\":\"CBV Test Agency has sent you an invitation to verify your income\"},\"subject\":{\"default\":\"Verify your income for your SNAP application or renewal\"}}},\"caseworker\":{\"cbv_flow_invitations\":{\"az_des\":{\"invite\":{\"case_number\":\"Case number\",\"email_address\":\"Client's email address\",\"language_label\":\"In what language should we send the invitation?\"}},\"create\":{\"invite_failed\":\"Error sending invitation to %{email_address}: %{error_message}.\",\"invite_success\":\"Successfully delivered invitation to %{email_address}.\"},\"incorrect_client_agency_id\":\"Unable to send invitation due to missing client agency configuration.\",\"new\":{\"description_html\":{\"default\":\"<p>Provide some details about the client so we can send them a link to verify their pay information. We'll request the past %{pay_income_days} days of income, based on the client's application/recertification date.</p><p>If multiple members of the household earn income, send an invite link to each household member.</p>\"},\"form\":{\"submit\":\"Send Invitation\"},\"header\":\"Send an invite link\"},\"sandbox\":{\"invite\":{\"agency_id_number\":\"Client's agency ID number\",\"beacon_id\":\"Your WELID\",\"client_id_number\":\"CIN\",\"email_address\":\"Client's email address\",\"first_name\":\"Client's first name\",\"language_label\":\"In what language should we send the invitation?\",\"last_name\":\"Client's last name\",\"middle_name\":\"Client's middle name\",\"snap_application_date\":\"SNAP application or recertification interview date\"}}},\"dashboards\":{\"show\":{\"create_invitation\":\"Create a new invitation\",\"expires_within\":{\"one\":\"%{count} day\",\"other\":\"%{count} days\"},\"header\":\"Invite clients to the SNAP Income Pilot\",\"helpful_reminders\":\"Helpful reminders\",\"invite_clients\":\"You can invite clients to use this income verification tool by clicking the \\\"Create a new invitation\\\" button below.\",\"reminder_1\":\"If multiple household members earn income, send an invite link to each member individually.\",\"reminder_2\":\"If an invitation link has expired, you can generate a new one on this page. Links expire if not accessed within %{expires_days} or if they have already been used to share the PDF report.\",\"reminder_3\":\"For security reasons, you'll be logged out after 30 minutes of inactivity.\",\"reminder_4\":\"If you encounter any issues with the tool, please use the Report feedback or bugs link.\"}},\"entries\":{\"disabled\":\"Staff portal disabled\",\"index\":{\"continue_to_login\":{\"default\":\"Continue to log in page\",\"sandbox\":\"Continue to CBV Test Agency log in page\"},\"description\":{\"sandbox\":\"This site allows staff at participating agencies to send clients a link to verify their income, so they can easily send pay information to the agency.\"},\"header\":{\"sandbox\":\"CBV Test Agency is piloting a new way to quickly verify clients' income\"},\"how_it_works\":\"How it works\",\"step_1_description\":\"For security, you will be automatically logged out after 30 minutes of inactivity.\",\"step_1_title\":{\"default\":\"Log in using your existing agency account.\"},\"step_2_description\":\"Invitations are for individual clients. If you need to verify income for multiple people in a household, you will need to create a new invitation for each person.\",\"step_2_title\":\"Click the \\\"Create a new invitation\\\" button.\",\"step_3_description\":\"When you submit their name, ID number, email address, and application date, we'll email them an invitation link to verify their income.\",\"step_3_title\":\"Provide information about the client. We'll send them an invitation.\",\"step_4_description\":\"The information will be uploaded as a PDF to the case.\",\"step_4_title\":\"Once the client verifies their income, you'll receive their income information.\"}}},\"caseworker_mailer\":{\"summary_email\":{\"greeting\":\"Hello,\",\"subject\":{\"default\":\"Income Verification Report %{case_number} has been received\",\"la_ldh\":\"CBV Report %{confirmation_code}\"}}},\"cbv\":{\"add_jobs\":{\"show\":{\"header\":\"Do you have another job to add?\",\"header_bullet_1\":\"Has an online payroll provider\",\"header_bullet_2\":\"Lets you view your pay stubs online\",\"header_bullet_3\":\"Is app-based (Uber, DoorDash, Lyft, Instacart, etc.)\",\"header_lead\":\"You only need to report jobs you worked in the past 90 days.\",\"header_sub_text_html\":\"You can use this tool to report income from multiple jobs. Each job only has to meet <strong>one</strong> of these criteria:\",\"radio_no\":\"No, I don’t have another job to add with this tool\",\"radio_yes\":\"Yes, I want to add another job with this tool\"}},\"applicant_informations\":{\"la_ldh\":{\"fields\":{\"case_number\":{\"blank\":\"Enter your Medicaid case number.\",\"help_text\":\"This 13-digit case number can be found on notices from Louisiana Department of Health\",\"prompt\":\"Medicaid case number (optional)\",\"super_one_html\":\"Medicaid case number<sup>1</sup>\"},\"date_of_birth\":{\"blank\":\"Enter your date of birth.\",\"help_text\":\"For example: January 19 2000\",\"prompt\":\"Your date of birth\",\"super_one_html\":\"Date of birth<sup>1</sup>\"}}},\"sandbox\":{\"fields\":{\"case_number\":{\"blank\":\"Enter your case number.\",\"prompt\":\"Case number\",\"super_one_html\":\"Case number<sup>1</sup>\"},\"date_of_birth\":{\"blank\":\"Enter your date of birth.\",\"help_text\":\"For example: January 19 2000\",\"prompt\":\"Date of birth\",\"super_one_html\":\"Date of birth<sup>1</sup>\"},\"first_name\":{\"blank\":\"Enter your first name.\",\"prompt\":\"First name\",\"super_one_html\":\"First name<sup>1</sup>\"},\"last_name\":{\"blank\":\"Enter your last name.\",\"prompt\":\"Last name\",\"super_one_html\":\"Last name<sup>1</sup>\"},\"middle_name\":{\"blank\":\"Enter your middle name.\",\"prompt\":\"Middle name\",\"super_one_html\":\"Middle name<sup>1</sup>\"}}},\"show\":{\"continue\":\"Continue\",\"explanation\":\"This information will be used to connect your income information to your %{agency_acronym} benefits. Please make sure the information you enter is the same as what is shown on your application.\",\"your_information\":\"Your information\"},\"update\":{\"error_header\":{\"one\":\"%{count} error\",\"other\":\"%{count} errors\"},\"error_updating_applicant\":\"An error occurred while updating the applicant information. Please try again.\"}},\"employer_searches\":{\"show\":{\"alert\":{\"heading\":\"Need help connecting to your payroll provider?\",\"help_options\":\"Get help here.\"},\"app_based_providers\":\"App-based employers\",\"can_not_find_employer\":\"I can’t find my employer or payroll provider\",\"common_questions_header\":\"Common questions\",\"employer_not_listed\":\"Employer not listed?\",\"exit_button_text\":\"Exit and go to %{agency_acronym}'s website\",\"header\":\"Search for your employer or payroll provider\",\"lost_job_body_html\":\"If you lost your job within the last 90 days, you can use this tool to report your job loss. You must be able to: <ul><li>Log in to your previous employer or payroll provider account, and</li><li>View your payment information online</li></ul>\",\"lost_job_title\":\"What if I lost my job?\",\"no_income_body\":\"If you haven’t worked in the past 90 days, contact %{agency_acronym} for next steps.\",\"no_income_title\":\"What if I don’t have any income to report?\",\"no_results_steps1\":\"Check if your employer uses another business name or search for their payroll provider.\",\"no_results_steps2\":\"Make sure you have spelled names correctly, then search again.\",\"no_results_steps3\":\"Choose from popular payroll providers or apps.\",\"no_results_steps_title\":\"Try these steps first:\",\"no_results_title\":\"We couldn’t find your employer or payroll provider.\",\"payroll_providers\":\"Payroll providers\",\"popular_providers\":\"Or choose from popular payroll providers or apps\",\"results\":{\"one\":\"We found 1 result\",\"other\":\"We found %{count} results\"},\"review_button_text\":\"Continue\",\"search\":\"Search\",\"search_label\":\"This can be your current employer. This can also be any recent employer from the past 90 days if you’re no longer working.\",\"search_subheader\":\"Select your employer from the list. Then, follow the screens to log in and verify your income.\",\"select\":\"Select\",\"to_continue\":\"If you still don’t see your employer or payroll provider listed:\",\"to_continue_li_1\":\"You’ll need to submit that income information separately.\",\"to_continue_li_1_html\":\"<a href=\\\"%{agency_contact_website}\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Go to %{agency_acronym}'s website</a> to learn about other ways to report your income.\",\"to_continue_li_2\":\"If you have other jobs to add, search for them.\",\"to_continue_li_3\":\"If you have no other jobs to add here, you can exit this site.\",\"to_continue_li_3_continue\":\"If you have no other jobs to add here, continue to review your income report.\"}},\"entries\":{\"create\":{\"error\":\"You must check the agreement checkbox to proceed.\"},\"show\":{\"checkbox_large_text\":{\"default\":\"Check this box to agree to let us access your payment information and share it with %{agency_full_name}.\"},\"checkbox_small_text\":{\"default\":\"We will only use this information to help determine your benefits, it will never be shared externally.\"},\"common_questions_header\":\"Common questions\",\"continue\":\"Get started\",\"header\":\"%{agency_full_name} needs to verify your income\",\"how_it_works_header\":\"How it works:\",\"is_my_data_secure_body_html\":\"Yes, your data is secure. We use strong encryption, like the kind banks use, to protect your information.<br><br>Your login credentials and payment information are securely transmitted and not stored by us.\",\"is_my_data_secure_title\":\"Is my data secure?\",\"learn_how_it_works\":\"Learn how it works\",\"step1\":\"Log in to access payment information from your employer\",\"step1_description\":\"Log in the same way you would to view your pay stubs online.\",\"step2\":\"Review your income\",\"step2_description\":\"You will be able to preview and approve everything before it’s shared.\",\"step3\":\"Share with %{agency_full_name}\",\"step3_description\":\"We’ll send your payment information to %{agency_acronym}. This can help you get a benefits decision faster.\",\"subheader_html\":\"Report My Income is a secure tool that helps you send payment records from your employer(s) to %{agency_full_name} (%{agency_acronym}).\",\"value_prop_1\":\"Usually takes 5–7 minutes to complete\",\"value_prop_2\":\"No need to gather income documents\",\"value_prop_3\":\"Strong encryption keeps your data safe\",\"what_if_i_cant_use_this_body_1_html\":\"<p>You'll need to share your income information directly with %{agency_acronym} if: <ul><li>you can't report your income with this tool, or</li><li>you haven't worked in the past 90 days</li></ul></p>\",\"what_if_i_cant_use_this_body_2_html\":{\"default\":\"Visit <a href=\\\"%{agency_url}\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">%{agency_acronym}’s website</a> for more information on how to submit documents.\",\"la_ldh\":\"You can: <ul><li>Upload documents through the Self Service Portal online at <a href=\\\"https://mymedicaid.la.gov/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">https://mymedicaid.la.gov/</a></li><li>Send documents through US Mail: Louisiana Medicaid/LaCHIP, P.O. Box 91283, Baton Rouge, LA 70821-9278</li><li>Email documents: <a href=\\\"mailto:MyMedicaid@la.gov\\\">MyMedicaid@la.gov</a></li><li>Bring your documents to the Medicaid office of choice.</li></ul>\"},\"what_if_i_cant_use_this_title\":\"What if I can't use this tool?\",\"what_is_this_body\":\"Report My Income is a tool that helps collect income from your employer(s) and send it to your state benefits office.\",\"what_is_this_title\":\"What is “Report My Income”?\",\"who_is_this_for_body\":\"You can use this tool if you have earned income in the last 90 days (even if you’re no longer working), and you can access your paystubs online or work for an app-based company like Uber, Lyft or Amazon Flex.\",\"who_is_this_for_title\":\"Who is this tool for?\"}},\"error_invalid_link\":\"Invalid link used to begin CBV. Try clicking the link again or contact your caseworker for help.\",\"error_invalid_token\":\"The invitation link used is not valid. Double check the link and try again. If you continue experiencing issues, contact your caseworker.\",\"error_missing_token_html\":\"<strong>Your session has timed out due to inactivity.</strong> Please reuse the same link you used to begin your session. If you encounter any issues, contact your benefits agency for assistance.\",\"error_no_access\":\"We weren't able to load payroll data for this account. Please click the link you received from your SNAP agency to try again.\",\"expired_invitations\":{\"show\":{\"body_1\":\"If you still need to verify your income, please submit your income information by visiting %{agency_acronym}'s website.\",\"cta_button_html\":{\"la_ldh\":\"<a href=\\\"%{agency_url}\\\" class=\\\"usa-button\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Visit LDH's website</a>\",\"sandbox\":\"<a href=\\\"https://www.mass.gov/guides/how-to-contact-dta\\\" class=\\\"usa-button\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Learn more at CBV Test Agency</a>\"},\"title\":\"Your invitation to verify income has expired\"}},\"missing_results\":{\"show\":{\"back_button\":\"Go back to employer search\",\"continue_button\":\"Continue to review my report\",\"continue_to_review\":\"Continue to review the income information you were able to find before you submit it to %{agency_acronym}.\",\"exit_button_html\":\"<a href=\\\"%{agency_contact_website}\\\" class=\\\"usa-button\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Exit and go to %{agency_full_name}</a>\",\"header\":\"How to report income if your employer or payroll provider isn’t listed\",\"more_jobs\":\"If you have more jobs to report\",\"no_more_jobs\":\"If you don't have more jobs to report\",\"not_listed_p1\":\"If your employer or payroll provider isn’t listed on this site, you’ll need to share your income information for this job directly with %{agency_acronym}.\",\"not_listed_p2\":\"Visit %{agency_acronym}'s website for more information on how to submit documents.\",\"not_listed_p2_link_html\":\"Visit <a href=\\\"%{agency_url}\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">%{agency_acronym}'s website</a> for more information on how to submit documents.\",\"you_can_search\":\"You can search for another employer or payroll provider. This site supports employers with online payroll providers or app-based services. Examples include Amazon, Walmart, McDonald’s, Uber, DoorDash, Lyft, and Instacart.\"}},\"other_jobs\":{\"show\":{\"header\":\"Do you need to report other income from your work?\",\"header_bullet_1\":\"You couldn’t find with this tool\",\"header_bullet_2\":\"You couldn’t log into with this tool\",\"header_bullet_3\":\"Give you paper pay stubs\",\"header_bullet_4\":\"You do on the side — like contract jobs or freelance work\",\"header_lead\":\"This could include income from jobs or work that:\",\"header_sub_text_html\":\"If you get income from a job or work that you can’t use this tool to report, <strong>you must submit that directly to %{agency_acronym}</strong>. <a href=\\\"%{agency_site}\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Learn more on %{agency_acronym}</a>. You only need to report work from the past 90 days.\",\"radio_no\":\"No, I don’t have other income\",\"radio_yes\":\"Yes, I will report other income directly to %{agency_acronym}\"}},\"payment_details\":{\"show\":{\"additional_information_header\":\"Additional comments (Optional)\",\"additional_information_label\":\"Share any comments or additional information about the income details above that you’d like %{agency_acronym} to know. For example, you can share if the information is inaccurate or if you’re no longer working at that job.\",\"continue\":\"Continue\",\"deductions\":\"Deduction: %{category} (%{tax})\",\"employment_end_date\":\"Employment end date\",\"employment_information_table_header\":\"Employment information\",\"employment_start_date\":\"Employment start date\",\"employment_status\":\"Employment status\",\"frequency_unknown\":\"Frequency Unknown\",\"header\":\"Review your payment information from %{employer_name}\",\"header_no_employer_name\":\"Your payment information from your employer\",\"hourly_rate\":\"Compensation amount\",\"hours\":{\"one\":\"%{count} hour\",\"other\":\"%{count} hours\"},\"hours_paid\":\"%{category}: Hours paid\",\"none_found\":\"We didn't find any payments from this employer in the past %{report_data_range}.\",\"none_found_description\":\"This typically happens when you haven't received income from this job in the past %{report_data_range}. If you believe this is an error, please add a comment in the additional comments box. Otherwise, continue to the next page.\",\"number_of_hours_worked\":\"Number of hours worked\",\"pay_date_prompt\":\"Pay date\",\"pay_frequency\":\"Pay frequency\",\"pay_gross\":\"Payment before taxes (gross)\",\"pay_gross_ytd\":\"Gross pay YTD\",\"pay_information\":\"Pay information\",\"pay_net\":\"Payment after taxes and deductions (net)\",\"pay_period\":\"Pay period\",\"pay_period_value\":\"%{start_date} to %{end_date}\",\"payment_hours\":\"%{amount} hours\",\"payments_and_deductions_table_header\":\"Payments and deductions\",\"subheader_html\":\"We have gathered your payment records from the past %{report_data_range} from %{start_date} to %{end_date}.<br>Please review your information. If something is missing or inaccurate, add a comment for %{agency_acronym}. This will be included in your income report.\",\"unknown\":\"Unknown\",\"your_details\":\"Your details\"}},\"submits\":{\"show\":{\"additional_information_title\":\"Is there anything else you'd like your caseworker to know about your income?\",\"application_or_recertification_date\":\"SNAP application or recertification interview date\",\"consent_checkbox_label_html\":{\"az_des\":\"Check this box to affirm under penalty of perjury that the information provided by you is true and complete to the best of your knowledge.<ul class=\\\"margin-y-2\\\"><li>You agree to tell %{agency_acronym} about:<ul><li>any other income not included in this report,</li><li>or any errors found in the information gathered with this tool.</li></ul></li><li>You understand that providing accurate and complete information is your responsibility.</li><li>Any false or missing information may result in:<ul><li>an overpayment, which you must repay to %{agency_acronym},</li><li>or program disqualification.</li></ul></li></ul>By sending this report, you authorize its use for income verification by %{agency_acronym} and authorized personnel.\",\"default\":\"Check this box to confirm: <ul class=\\\"margin-y-2\\\"><li>The information provided by you is true and complete to the best of your knowledge.</li><li>You agree to inform the %{agency_full_name} of any income not reflected in this report or any discrepancies found in the information gathered with this tool.</li><li>You understand that providing accurate and complete information is your responsibility, and any false or omitted information may have legal consequences.</li></ul> By sending this report, you authorize its use for income verification by authorized %{agency_acronym} personnel.\"},\"legal_header\":\"Legal agreement\",\"none_found\":\"We didn't find any payments from this employer.\",\"none_found_confirmed\":\"We've confirmed that there are no recent payments from this employer. This happens when the client hasn't received income from this job.\",\"page_header\":\"Submit your income report\",\"pdf\":{\"agency_header_name\":{\"az_des\":\"Department of Economic Security\",\"la_ldh\":\"Department of Health\",\"sandbox\":\"CBV Test Agency\"},\"caseworker\":{\"agreement_consent_timestamp\":\"Agreement Consent Timestamp\",\"case_number\":\"Case number\",\"client_email_address\":\"Client's email address\",\"client_full_name\":\"Client full name (linked to payroll account)\",\"client_id_number\":\"CIN\",\"client_provided_information\":\"Client-provided information\",\"description\":\"The following income information was retrieved with the client's consent and has been submitted by them to their benefits agency. The client is also able to download a client-facing copy of this report.\",\"doc_id\":\"Doc ID\",\"how_to\":\"This report includes payment information from the past 90 days. In most cases, you only need to review income from the last 30 days for eligibility purposes. Use data beyond the 30-day period only if necessary. Key fields for income verification are highlighted in yellow.\",\"how_to_header\":\"How to use this report:\",\"pay_period\":\"Pay period (%{pay_frequency})\",\"snap_agency_id\":\"SNAP Agency ID\",\"ssn\":\"SSN\",\"staff_beacon_id_wel_id\":\"Staff BEACON ID (WELID)\"},\"client\":{\"address\":\"Employer address\",\"agency_id_number\":\"Client's Agency ID\",\"client_report_information\":\"Client and Report Information\",\"date_created\":\"Date the income report was created\",\"date_range\":\"Date range for the income report\",\"description\":\"We have collected your income information with your consent and sent it to %{agency_acronym}. Any additional income that you weren't able to add to this report should be shared separately with %{agency_acronym}.\",\"employment_payment_details\":\"Employment and Payment details\",\"header\":\"Income Verification Report\"},\"footer\":{\"page_footer\":\"Income Verification Report | Page [page] of [topage]\"},\"shared\":{\"additional_jobs_to_report\":\"Reporting any income from work separately?\",\"additional_jobs_to_report_html\":\"Reporting any income from work separately?<sup>1</sup>\",\"client_information\":\"Client information\",\"confirmation_code\":\"Confirmation code\",\"details\":\"Details\",\"employment_information\":\"Employment information\",\"pay_information\":\"Pay information\",\"payments_and_deductions_header\":\"Payments and deductions from %{employer_name}\",\"report_details\":\"Report details\"}},\"share_report_button\":\"Share my report with %{agency_acronym}\",\"table_caption_no_name\":\"Employer %{number}\",\"warning_1\":\"Your income report will be sent to %{agency_acronym}.\",\"warning_2\":\"You must check the legal agreement box to share your report.\"},\"update\":{\"consent_to_authorize_warning\":\"Please check the legal agreement box to share your report.\"}},\"successes\":{\"show\":{\"confirmation_code_html\":\"<strong>Your confirmation code</strong>: %{confirmation_code}\",\"copied_link\":\"Copied link\",\"copy_link\":\"Copy link\",\"download\":\"Download my report\",\"header\":\"Your income report was successfully sent to %{agency_acronym}.\",\"invitation_link_label\":\"Invitation link\",\"share_invitation_link_content\":\"Share this link to anyone in your household who needs to report their income.\",\"share_invitation_link_title\":\"Share a link if others in your household need to report their income.\",\"survey\":\"Take the 3 question survey\",\"whats_next\":\"What's next?\",\"whats_next_1_li_1\":\"If you couldn’t find a job or don’t get paystubs, report your income to %{agency_acronym} online, in person, or by mail.\",\"whats_next_1_li_2_html\":\"Go to <a href=\\\"%{agency_website}\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">%{agency_acronym}'s website</a>\",\"whats_next_1_title\":\"Report other income, if needed.\",\"whats_next_2_li_1_html\":\"We’d like to hear more about your experience using this site.\",\"whats_next_2_title\":\"Help make this experience better.\"}},\"summaries\":{\"show\":{\"additional_comments\":\"Additional comments\",\"application_information\":\"Applicant information\",\"description\":\"The report below shows your recent income. Please review it before sending.\",\"edit\":\"Edit\",\"header\":\"Review your income report\",\"must_match\":{\"default\":\"This must match what is shown on your %{agency_acronym} application.\",\"la_ldh\":\"This must match what is shown on your Medicaid benefits.\"},\"none_found\":\"We didn't find any payments from this employer in the past %{report_data_range}.\",\"none_found_description\":\"This typically happens when you haven't received income from this job in the past %{report_data_range}. If you believe this is an error, please add a comment in the additional comments box. Otherwise, continue to the next page.\",\"other_jobs\":\"Other income\",\"other_jobs_question\":\"Do you need to report other income from work separately?\",\"phone_number\":\"Employer phone\",\"question\":\"Question\",\"table_caption\":\"Employer %{number}: %{employer_name}\",\"table_caption_no_name\":\"Employer %{number}\",\"your_answer\":\"Your answer\",\"your_information\":\"Your information\"}},\"synchronization_failures\":{\"show\":{\"back_to_search\":\"Back to employer search\",\"continue_to_report\":\"Continue to Report\",\"description\":\"We were unable to connect to your employer's system due to an error. To continue, you can:\",\"option_1\":\"Go back to employer search to retry adding this employer.\",\"option_2\":\"Go back to employer search to add another job.\",\"option_3\":\"Submit your income information for this employer by visiting %{agency_acronym}'s website.\",\"title\":\"We couldn't access your employer information\"}},\"synchronizations\":{\"indicators\":{\"employment\":\"Employment\",\"identity\":\"Personal details\",\"income\":\"Income\",\"paystubs\":\"Paystubs\"},\"show\":{\"header\":\"We’re gathering your payment details from your employer\"},\"status\":{\"fetching_payroll_description\":\"This may take a few minutes. Please keep this window open while we work on this.\",\"header\":\"We’re gathering your payment details from your employer\"}}},\"components\":{\"report\":{\"employment_details_table\":{\"header\":{\"your_details\":\"Your details\"}},\"monthly_summary_table\":{\"accrued_gross_earnings\":\"Accrued gross earnings\",\"compact\":{\"footnote\":{\"definition_accrued_gross_earnings\":\"\\\"Accrued gross earnings\\\" sums the payments made in that month.\",\"definition_total_hours_worked\":\"\\\"Total hours worked\\\" sums the time it took to complete every gig worked in that month. There may be gigs worked in a month that were paid in the following month.\",\"definition_verified_mileage_expenses\":\"\\\"Verified mileage expenses\\\" uses mileage from the Platform/App. We multiply this by the federal mileage rate ($.70 for 2025), which covers all costs related to a car. These can be costs like gas, car payments or leasing fees, car insurance, repairs, and maintenance.\",\"what_does_this_mean\":\"What does this information mean?\"}},\"dollars_times_miles\":\"(%{dollar_amount} x %{number_of_miles} miles)\",\"month\":\"Month\",\"monthly_summary\":\"Monthly summary\",\"partial_month_text\":\"(Partial month: from %{start_date}-%{end_date})\",\"partial_month_text_simple\":\"(Partial month)\",\"payments_from_header\":\"Payments from %{employer_name}\",\"payments_from_text\":\"These were the dates that you were paid for your work at %{employer_name} and the gross pay amount.\",\"payments_from_text_caseworker\":\"These were the dates that the client was paid for their work at %{employer_name} and the gross pay amount.\",\"total_gig_hours\":\"Total hours worked\",\"verified_mileage_expenses\":\"Verified mileage expenses\",\"w2\":{\"definition_gross_income\":\"\\\"Gross income\\\" is the pay from your job before taxes, benefits, and deductions were taken out of your paychecks. In the table above, your total gross income is summed for the month within the 90 day window.\",\"definition_number_of_paychecks\":\"\\\"Number of paychecks\\\" is how many times you were paid in a month within the 90-day window.\",\"definition_total_hours_worked\":\"\\\"Total hours worked\\\" are the total number of hours you worked for every paycheck you received in a month.\",\"title_gross_income\":\"Gross income\",\"title_number_of_paychecks\":\"Number of paychecks\",\"title_total_hours_worked\":\"Total hours worked\"}}}},\"continue\":\"Continue\",\"date\":{\"formats\":{\"default\":\"%Y-%m-%d\",\"long\":\"%B %-d, %Y\",\"month_year\":\"%B %Y\",\"short\":\"%b %-d\"}},\"help\":{\"index\":{\"company_id\":\"I don't know my company ID\",\"credentials\":\"I don't feel comfortable entering my login credentials\",\"employer\":\"I can't find the correct employer\",\"feedback\":\"Report feedback or bugs\",\"password\":\"I don't know my password\",\"provider\":\"I don't know my payroll provider\",\"select_prompt\":\"Select an option below:\",\"title\":\"Need help connecting to your payroll provider?\",\"username\":\"I don't know my username\"},\"show\":{\"company_id\":{\"intro\":\"Try the following steps:\",\"step1\":{\"content\":[\"Your company ID is often in your onboarding documents, welcome email, or payroll setup information.\",\"Search your email for keywords like \\\"payroll,\\\" \\\"[Payroll Provider Name],\\\" or \\\"company ID.\\\"\"],\"title\":\"Check your welcome materials\"},\"step2\":{\"content\":\"Your company ID might be on old pay stubs, tax forms, or other payroll papers. Check there first if you have them.\",\"title\":\"Look on pay stubs or statements\"},\"step3\":{\"content\":\"Reach out to your HR or payroll administrator. They can help you get the company ID.\",\"title\":\"Contact your employer's Human Resources Department\"},\"title\":\"I don't know my company ID\"},\"credentials\":{\"intro\":\"We understand your concerns about sharing your login information.\",\"security_message\":\"Your security is important to us, and we want you to feel safe. Here's how we keep your information protected:\",\"step1\":{\"content\":\"We use strong encryption, like the kind banks use, to protect your information. Your credentials are securely transmitted and not stored by us.\",\"title\":\"Your login information is encrypted and secure\"},\"step2\":{\"content\":\"We only use your login information to check your payroll details once. It will not be used again, or for anything else.\",\"title\":\"Your information is only used to check your income\"},\"step3\":{\"content\":\"The service we use to check your payroll data is trusted by many companies to handle payroll data securely.\",\"title\":\"We use trusted services\"},\"title\":\"I don't feel comfortable entering my login credentials\"},\"employer\":{\"intro\":\"Try the following steps:\",\"step1\":{\"content\":[\"If there's a parent company, try that name.\",\"Use abbreviations (e.g., \\\"ABC Co.\\\" instead of \\\"ABC Corporation\\\").\",\"Leave out special characters or punctuation.\"],\"title\":\"Search different versions of your employer's name\"},\"step2\":{\"content\":[\"If your employer doesn't show up in the search, try looking for the payroll provider your company uses.\",\"If you don't know your payroll provider, check your pay stub for names like ADP, Paylocity, or Workday.\"],\"title\":\"Search by your payroll provider instead\"},\"step3\":{\"content\":\"If your employer or payroll provider isn't listed, you will need to give your income information to your agency a different way.\",\"title\":\"If you still cannot find your employer or payroll provider\"},\"title\":\"I can't find the correct employer\"},\"go_back\":\"Go back\",\"password\":{\"intro\":\"Try the following steps:\",\"step1\":{\"content\":\"Follow the steps to recover your password.\",\"title\":\"Go to your payroll provider's login page\"},\"step2\":{\"content\":\"Ask your employer's HR team to help get your payroll login details.\",\"title\":\"Contact your employer's Human Resource Team\"},\"title\":\"I don't know my password\"},\"provider\":{\"intro\":\"Try these steps:\",\"step1\":{\"content\":\"Look for names like ADP, Paylocity, or Workday on your paystub.\",\"title\":\"Check your pay stub or tax documents\"},\"step2\":{\"content\":\"Check your inbox for terms like \\\"payroll,\\\" \\\"pay stub,\\\" or \\\"direct deposit.\\\"\",\"title\":\"Search your email inbox\"},\"step3\":{\"content\":\"Reach out to your HR or payroll administrator to get the name of your payroll provider.\",\"title\":\"Contact your employer's Human Resources Department\"},\"title\":\"I don't know my payroll provider\"},\"username\":{\"intro\":\"Try the following steps:\",\"step1\":{\"content\":\"Follow the steps to recover your username.\",\"title\":\"Go to your payroll provider's login page\"},\"step2\":{\"content\":[\"Look for any emails from your payroll provider or employer that have your username.\",\"Search for words like \\\"[Payroll Provider Name]\\\", \\\"login\\\", or \\\"credentials.\\\"\"],\"title\":\"Check your email inbox\"},\"step3\":{\"content\":\"Ask your employer's HR team to help get your payroll login details.\",\"title\":\"Contact your employer's Human Resource Team\"},\"title\":\"I don't know my username\"}}},\"maintenance\":{\"body_1\":\"The site is not available right now. Any information you entered will not be saved.\",\"body_2\":\"Visit your agency's website for more information on how to submit proof of income for your benefits.\",\"header\":\"We're undergoing maintenance\"},\"pages\":{\"error_404\":{\"error_code_html\":\"Error code: <strong>404</strong>\",\"header\":\"We can't find the page you're looking for\",\"return_to_entry\":\"Return to entry page\",\"return_to_welcome\":\"Return to welcome page\"},\"error_500\":{\"description\":\"This is a problem on our end. There was an error with the server and our team has been notified. Please refresh your page, or try again later.\",\"error_code_html\":\"Error code: <strong>500</strong>\",\"header\":\"It looks like something went wrong\",\"refresh\":\"Refresh page\"},\"home\":{\"description_1\":\"Report My Income is a new tool designed to help you connect your income details from your employer or payroll provider directly to your benefits agency. We're currently testing this tool to ensure it works effectively.\",\"description_2\":\"Please note this pilot is currently available only to participants in Arizona and Louisiana.\",\"description_3\":\"Visit your agency's website for more information on how to submit proof of income for your benefits.\",\"header\":\"Welcome to Report My Income\",\"pilot_ended\":{\"la_ldh\":{\"body_bullet_1_html\":\"Upload documents through the Self Service Portal online at <a href=\\\"http://MyMedicaid.LA.GOV\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">http://MyMedicaid.LA.GOV</a>\",\"body_bullet_2_html\":\"Send documents through US Mail:  Louisiana Medicaid/LaCHIP, P.O. Box 91283, Baton Rouge, LA 70821-9278\",\"body_bullet_3_html\":\"Email documents to: <a href=\\\"mailto:MyMedicaid@la.gov\\\">MyMedicaid@la.gov</a>\",\"body_bullet_4_html\":\"Bring documents to the Medicaid office of choice.\",\"body_html\":\"<strong>The pilot period for Louisiana has ended.</strong> If you still need to report your income, you can:\",\"browser_title\":\"Report My Income | Louisiana Department of Health\",\"header\":\"Report My Income\"}}}},\"session_timeout\":{\"modal\":{\"description\":\"It looks like you're inactive. For your security, we will sign you out soon unless you choose to extend your session.\",\"end_button\":\"End session\",\"extend_button\":\"Yes, extend my session\",\"heading\":\"Do you need more time?\"}},\"shared\":{\"agency_acronym\":{\"az_des\":\"DES/FAA\",\"la_ldh\":\"LDH\",\"sandbox\":\"CBV\"},\"agency_full_name\":{\"az_des\":\"Department of Economic Security/Family Assistance Administration\",\"la_ldh\":\"Louisiana Department of Health\",\"sandbox\":\"CBV Test Agency\"},\"app_name\":{\"az_des\":\"MyFamilyBenefits\",\"sandbox\":\"CBVApp\"},\"banner\":{\"lock\":\"Lock\",\"locked_padlock\":\"A locked padlock\"},\"benefit\":{\"az_des\":\"Nutrition Assistance\",\"la_ldh\":\"Medicaid\",\"sandbox\":\"SNAP\"},\"error_unauthorized\":\"The URL you're accessing is forbidden for the current user. Please verify you are logged in as the correct user and try accessing the URL again.\",\"footer\":{\"feedback\":\"Share feedback\"},\"header\":{\"aria_label\":\"Main navigation\",\"cbv_flow_title\":{\"az_des\":\"Department of Economic Security\",\"la_ldh\":\"Department of Health\",\"sandbox\":\"CBV Test Agency\"},\"close\":\"Close\",\"help\":\"Help\",\"log_out\":\"Log out\",\"preheader\":{\"az_des\":\"A website in partnership with the Arizona Department of Economic Security.\",\"default\":\"A website in partnership with CBV Test Agency.\",\"la_ldh\":\"A website in partnership with the Louisiana Department of Health\"},\"primary\":\"Primary navigation\"},\"languages\":{\"en\":\"English\",\"es\":\"Español\",\"fr\":\"Français\",\"zh\":\"中文\"},\"next_path\":{\"notice_no_answer\":\"You must select an answer to continue.\"},\"not_applicable\":\"N/A\",\"pilot_name\":\"Report My Income\",\"report_data_range\":{\"ninety_days\":\"90 days\",\"six_months\":\"6 months\"},\"reporting_purpose\":{\"az_des\":\"Mid Approval Contact form\",\"la_ldh\":\"benefits\",\"sandbox\":\"benefits\"},\"select_placeholder\":\"- Select -\",\"skip_link\":\"Skip to main content\"},\"time\":{\"formats\":{\"default\":\"%Y-%m-%d\"}},\"us_form_with\":{\"boolean_false\":\"No\",\"boolean_true\":\"Yes\",\"date_picker_format\":\"Format: mm/dd/yyyy\",\"optional\":\"Optional\",\"tax_id_format\":\"Format: 123456789\"},\"users\":{\"omniauth_callbacks\":{\"authentication_successful\":\"You are signed in.\"}}}}"));}),
+"[project]/src/locales/ts/en.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "en",
+    ()=>en
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$json$2f$en$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/src/locales/json/en.json (json)");
+;
+const en = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$json$2f$en$2e$json__$28$json$29$__["default"];
+}),
+"[project]/src/locales/index.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "translations",
+    ()=>translations
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$ts$2f$en$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/locales/ts/en.ts [app-ssr] (ecmascript)");
+;
+const translations = {
+    en: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$ts$2f$en$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["en"]
+};
+}),
+"[project]/src/context/LocaleContext.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "LocaleContext",
+    ()=>LocaleContext,
+    "default",
+    ()=>LocaleProvider,
+    "useLocale",
+    ()=>useLocale
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/locales/index.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+// replaces template literal % with $ for JS
+function interpolate({ template, variables }) {
+    return template.replace(/%\{(\w+)\}/g, (_, key)=>{
+        return variables && variables[key] !== undefined ? String(variables[key]) : `%{${key}}`;
+    });
+}
+function getNestedValue(obj, keys) {
+    let value = obj;
+    for (const key of keys){
+        if (typeof value === "object" && value !== null && key in value) {
+            value = value[key];
+        } else {
+            return undefined;
+        }
+    }
+    return typeof value === "string" ? value : undefined;
+}
+const LocaleContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(undefined);
+function LocaleProvider({ children }) {
+    const [locale, setLocale] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("en");
+    const t = (key, variables)=>{
+        const keys = key.split(".");
+        const translation = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$locales$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][locale];
+        const value = getNestedValue(translation, keys);
+        if (!value) return key;
+        return variables ? interpolate({
+            template: value,
+            variables
+        }) : value;
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LocaleContext.Provider, {
+        value: {
+            locale,
+            setLocale,
+            t
+        },
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/context/LocaleContext.tsx",
+        lineNumber: 65,
+        columnNumber: 5
+    }, this);
+}
+function useLocale() {
+    const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(LocaleContext);
+    if (!context) {
+        throw new Error("useLocale must be used within a LocaleProvider");
+    }
+    return context;
+}
+}),
+"[project]/src/components/FooterWrapper/footer.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "primaryLinkWrapper": "footer-module__w43_ua__primaryLinkWrapper",
+  "primaryWrapper": "footer-module__w43_ua__primaryWrapper",
+  "wrapper": "footer-module__w43_ua__wrapper",
+});
+}),
+"[project]/src/components/FooterWrapper/index.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>FooterWrapper
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterWrapper$2f$footer$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/FooterWrapper/footer.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@trussworks/react-uswds/lib/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+const primaryContent = {
+    mainLinks: [
+        {
+            name: "home",
+            href: "/"
+        },
+        {
+            name: "cbv-flow-invitations",
+            href: "/cbv-flow-invitations"
+        }
+    ]
+};
+const primaryNode = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterWrapper$2f$footer$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].primaryWrapper,
+    children: primaryContent.mainLinks && primaryContent.mainLinks.map((link, linkIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: link.href,
+            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterWrapper$2f$footer$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].primaryLinkWrapper} bg-primary`,
+            children: [
+                link.name,
+                "  "
+            ]
+        }, linkIndex, true, {
+            fileName: "[project]/src/components/FooterWrapper/index.tsx",
+            lineNumber: 24,
+            columnNumber: 21
+        }, ("TURBOPACK compile-time value", void 0)))
+}, void 0, false, {
+    fileName: "[project]/src/components/FooterWrapper/index.tsx",
+    lineNumber: 21,
+    columnNumber: 5
+}, ("TURBOPACK compile-time value", void 0));
+const secondaryNode = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterWrapper$2f$footer$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].secondaryWrapper,
+    children: "IVAAS"
+}, void 0, false, {
+    fileName: "[project]/src/components/FooterWrapper/index.tsx",
+    lineNumber: 31,
+    columnNumber: 5
+}, ("TURBOPACK compile-time value", void 0));
+function FooterWrapper() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterWrapper$2f$footer$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].wrapper,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trussworks$2f$react$2d$uswds$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {
+            size: "medium",
+            primary: primaryNode,
+            secondary: secondaryNode
+        }, void 0, false, {
+            fileName: "[project]/src/components/FooterWrapper/index.tsx",
+            lineNumber: 37,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/FooterWrapper/index.tsx",
+        lineNumber: 36,
+        columnNumber: 9
+    }, this);
+}
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__516a174d._.js.map

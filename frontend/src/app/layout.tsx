@@ -6,6 +6,7 @@ import "./globals.css";
 // import { GovBanner } from '@trussworks/react-uswds';
 import HeaderWrapper from "@/components/HeaderWrapper";
 import LocaleProvider from "@/context/LocaleContext";
+import FooterWrapper from "@/components/FooterWrapper";
 import styles from "./layout.module.css";
 
 const geistSans = Geist({
@@ -35,6 +36,7 @@ export default function RootLayout({
           {/* <GovBanner /> */}
           <HeaderWrapper />
           {children}
+          <FooterWrapper />
         </body>
       </LocaleProvider>
     </html>
