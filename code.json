@@ -1,8 +1,8 @@
 {
   "name": "caseworkerportal",
   "version": "",
-  "description": "",
-  "longDescription": "",
+  "description": "Portal to generate tokenized links to the CBV application.",
+  "longDescription": "The CBV application allows state agencies to embed application information into the link they use to invite applicants to the site. This portal can be used by case workers to generate these links.",
   "status": "Development",
   "permissions": {
     "licenses": [
@@ -29,7 +29,7 @@
     "clones": 0
   },
   "platforms": ["web"],
-  "categories": [],
+  "categories": ["data-collection", "other"],
   "softwareType": "standalone/web",
   "languages": [
     "JavaScript",
@@ -47,7 +47,7 @@
     "lastModified": "2025-12-17T22:12:40Z",
     "metadataLastUpdated": "2025-12-18T13:27:27.367Z"
   },
-  "tags": [],
+  "tags": ["Income Verification", "Medicaid", "Community Engagement", "Work Requirement", "HR 1", "One Big Beautiful Bill Act", "Medicaid Expansion", "Eligibility Determination", "Work Program", "Education", "Education Program", "Center for Medicaid and Children Services", "CMS", "Open Source"],
   "contact": {
     "email": "jake.shilling@cms.hhs.gov",
     "name": "Jake Shilling"
