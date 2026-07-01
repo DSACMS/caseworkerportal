@@ -11,7 +11,9 @@
         "URL": "https://github.com/DSACMS/iv-cbv-payroll/blob/main/LICENSE"
       }
     ],
-    "usageType": ["openSource"],
+    "usageType": [
+      "openSource"
+    ],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
@@ -23,13 +25,18 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 22886,
+  "laborHours": 22888,
   "reuseFrequency": {
     "forks": 0,
     "clones": 0
   },
-  "platforms": ["web"],
-  "categories": ["data-collection", "other"],
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "data-collection",
+    "other"
+  ],
   "softwareType": "standalone/web",
   "languages": [
     "JavaScript",
@@ -44,10 +51,25 @@
   "partners": [],
   "date": {
     "created": "2025-12-02T14:06:37Z",
-    "lastModified": "2025-12-17T22:12:40Z",
-    "metadataLastUpdated": "2025-12-18T13:27:27.367Z"
+    "lastModified": "2026-01-08T17:41:55Z",
+    "metadataLastUpdated": "2026-07-01T03:37:57.966Z"
   },
-  "tags": ["Income Verification", "Medicaid", "Community Engagement", "Work Requirement", "HR 1", "One Big Beautiful Bill Act", "Medicaid Expansion", "Eligibility Determination", "Work Program", "Education", "Education Program", "Center for Medicaid and Children Services", "CMS", "Open Source"],
+  "tags": [
+    "Income Verification",
+    "Medicaid",
+    "Community Engagement",
+    "Work Requirement",
+    "HR 1",
+    "One Big Beautiful Bill Act",
+    "Medicaid Expansion",
+    "Eligibility Determination",
+    "Work Program",
+    "Education",
+    "Education Program",
+    "Center for Medicaid and Children Services",
+    "CMS",
+    "Open Source"
+  ],
   "contact": {
     "email": "jake.shilling@cms.hhs.gov",
     "name": "Jake Shilling"
@@ -59,9 +81,18 @@
   "userInput": false,
   "fismaLevel": "moderate",
   "group": "CMS/OA/DSAC",
-  "projects": ["income-verification-as-a-service"],
+  "projects": [
+    "income-verification-as-a-service"
+  ],
   "systems": [],
-  "subsetInHealthcare": ["medicaid", "SNAP", "TANF", "human-benefit-services"],
-  "userType": ["government"],
+  "subsetInHealthcare": [
+    "medicaid",
+    "SNAP",
+    "TANF",
+    "human-benefit-services"
+  ],
+  "userType": [
+    "government"
+  ],
   "maturityModelTier": 2
 }
